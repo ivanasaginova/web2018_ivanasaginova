@@ -1,80 +1,125 @@
-/* Begin CSS Reset code */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+.container {
+  max-width: 960px;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
+
+.site-header a {
+   margin-top: 30px;
+    margin-bottom: 30px;
+   font-family: "Andale Mono", "Monotype.com", monospace;
+    font-size: 1.5em;
+    letter-spacing: -2px;
+    font-weight: 400;
+    color: black;
 }
-/* End CSS Reset code */
-/* Begin My Css */
-html{
-    background:white;
+.site-header a:hover {
+  color: greenyellow;
+  text-decoration: none;
 }
-body{
-    font-family: 'Open Sans', sans-serif;
-    background: white;
-    width: 50%;
-    padding: 0px;
-    margin: 0px;
-    width: 800px;
-    margin: auto; 
+.name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+   font-family: "Andale Mono", "Monotype.com", monospace;
+    font-size: 1.5em;
+    letter-spacing: -2px;
+    font-weight: 400;
 }
-div{
-    border-width:1px;
-    text-align: left;
-    
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
 }
-.header {
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: pink;
+    text-decoration-line: none;
+}
+.overflow-hidden { 
+    overflow: hidden; 
+}
+.first {
     padding-top: 40px;
-	background: white;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.mainmenu {
-	margin-right: 40px;
-	
+.even {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.04);
 }
-.footer {
-	background: white;
+.odd {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-.aside {
-	background: white;
-}
-.folder {
-    display: -webkit-flex;
-    display: flex;
-    width: 100%;
-    padding: 0px;
-}
-.link {
+.links-first {
+    width:65%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: green;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-top: 5vw;
+    margin-left: 15vw;
     text-align: left;
+    font-family: "Andale Mono", "Monotype.com", monospace;
 }
-h1 {
-	font-weight: 900;
-    font-size: 3rem;
+
+.links-left {
+    width:65%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-top: 5vw;
+    margin-left: 15vw;
     text-align: left;
+    font-family: "Andale Mono", "Monotype.com", monospace;
 }
-h2 {
-	font-weight: 800;
-	font-size: 1.5rem;
+
+.links-right {
+    width:65%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 30px;
+    margin-top: 5vw;
+    margin-right: 5vw;
+    text-align: left;
+    font-family: "Andale Mono", "Monotype.com", monospace;
 }
-p {
-    font-size: 1rem;
+
+.number-right {
+    margin-left: 5vw;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15em;
+    font-weight: 600;
+    text-align: left;
+    color: black;
+}
+.number-left {
+    margin-right: 5vw;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15em;
+    font-weight: 600;
+    text-align: right;
+    color: black;
 }
