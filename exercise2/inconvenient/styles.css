@@ -1,0 +1,67 @@
+
+
+.top {
+	color: #555;
+ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    text-align: right !important;
+
+}
+
+header {
+	font-family: 'Roboto', sans-serif;
+    color: #AEA0D0;
+    font-weight: 800;
+    font-size: 5em;
+}
+#title{
+	font-family: 'Roboto', sans-serif;
+    color: #AEA0D0;
+    font-weight: 200;
+    font-size: 2.5em;
+}
+#pt2{
+	font-family: 'Roboto', sans-serif;
+    color: #AEA0D0;
+    font-weight: 200;
+    font-size: vw;
+}
+#pt3{
+	font-family: 'Roboto', sans-serif;
+    color: #AEA0D0;
+    font-weight: 200;
+    font-size: .5em;
+}
+.collapsible {
+	font-family: 'Roboto', sans-serif;
+    background-color: #AEA0D0;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: 800;
+    font-size: 15em;
+    letter-spacing: 30px;
+    text-align: right;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+    color: yellow;
+}
+
+.content {
+    padding: 0 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+    display: none;
+    overflow: hidden;
+    background-color: #555;
+    color: white;
+}
