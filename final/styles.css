@@ -1,0 +1,194 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* End CSS Reset code */
+/* Begin My Css */
+html{
+    background: white;
+}
+body{
+    color: black;
+    
+}
+div{
+
+    position:relative;
+}
+a {
+    color:black;
+
+}
+.row {
+  position: relative;
+  width: 100%;
+}
+.col {
+    text-align: center;
+    padding: 60px;
+}
+.header {
+  
+    text-align: left;
+    color: black;
+    font-size: 3em;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.navbar {
+  padding: 30vh;
+  text-align: center;
+}
+.navbar h1 {
+    font-size: 1.5em;
+    font-family: ocr-b-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -.5px;
+}
+.navbar p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.indivpage {
+  padding: 30vh;
+  text-align: center;
+    padding-bottom: 10%;
+}
+.indivpage h1 {
+    font-size: 1.5em;
+    font-family: ocr-b-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -.5px;
+}
+.indivpage p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.caption {
+    padding-left: 30vh;
+    padding-right: 30vh;
+    text-align: left;
+    padding-bottom: 10%;
+}
+.caption p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.slidertitle {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+    .slider {
+        width: 80vw;
+        margin:  auto;
+    }
+
+    .slick-slide {
+      margin: 0px 10px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
+#background-wrap {
+    bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+
+/* KEYFRAMES */
+
+@keyframes moveUp {
+    0%{margin-top:1000px}
+   100%{margin-top:0px}
+    
+}
+
+
+@keyframes moveAway {
+    0%{margin-top:100px}
+   100%{margin-top:0px}
+    
+}
+
+/* ANIMATIONS */
+
+.x1 {
+	animation: moveUp 5s linear;
+	left: -5%;
+	top: 0%;
+}
+.x2 {
+	animation: moveUp 3s linear;
+	left: 5%;
+	top: 13%;
+}
+
+
+
+.x14 {
+	animation: moveAway 3s linear infinitw;
+	left: 5%;
+	top: 0%;
+}
+
+
+
